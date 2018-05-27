@@ -1,9 +1,15 @@
+#include <time.h>
+
 #include "Command.h"
 
+int Demo()
+{
+	Actor player('@', GridVector2(0, 0));
+	return 0;
+}
 
 int main()
 {
-	// Demo
-
-	return 0;
+	srand(time(NULL));
+	return Demo();
 }
