@@ -9,8 +9,8 @@ public:
 
 	void move(GridVector2);
 	
-	char getIcon();
 	void setIcon(char);
+	char getIcon();
 
 	GridVector2 getPosition();
 

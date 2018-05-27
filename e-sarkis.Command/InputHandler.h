@@ -1,4 +1,8 @@
 #pragma once
+
+#include <Windows.h>
+#include <stdio.h>
+
 #include "Command.h"
 
 class InputHandler
@@ -6,7 +10,7 @@ class InputHandler
 public:
 	InputHandler();
 	
-	void update();
+	bool update(Actor*);
 
 private:
 	Command* _keyUp;
