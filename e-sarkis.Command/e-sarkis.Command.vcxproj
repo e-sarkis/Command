@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
-    <ClCompile Include="ChangeIconCommand.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="GridVector2.cpp" />
     <ClCompile Include="InputHandler.cpp" />
