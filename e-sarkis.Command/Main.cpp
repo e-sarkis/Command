@@ -7,7 +7,7 @@ void Draw(Actor* player)
 {
 	system("CLS");
 	// Controls
-	printf("CONTROLS\nSpacebar:\tChange Icon\nArrow Keys:\tChange Position\nEscape Key:\tQuit\n\n\n", player->getIcon());
+	printf("CONTROLS\nSpacebar:\tChange Icon\nArrow Keys:\tChange Position\n\n", player->getIcon());
 	// Status Display
 	printf("\t%c's turn!\n", player->getIcon());
 	printf("Position of %c:\t(%d, %d)\n", player->getIcon(),
